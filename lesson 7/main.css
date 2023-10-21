@@ -1,0 +1,33 @@
+p{
+  color: blue;  
+}
+
+.text{
+    color: red;
+}
+
+#text{
+    font: size 32px;
+}
+
+.square{
+  width: 100px;
+  height: 200px;
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini .square{
+  width: 100px;
+  height: 200px;
+  background-color: blue;
+}
+
+.parent{
+  display: flex;
+  justify-content: space-evenly;
+}
